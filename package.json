@@ -17,7 +17,6 @@
     "@web3-react/walletconnect-connector": "^6.2.13",
     "@web3-react/walletlink-connector": "^6.2.14",
     "buffer": "^6.0.3",
-    "chai": "^4.3.7",
     "dotenv": "^16.4.5",
     "ethers": "^5.7.1",
     "json-rpc-engine": "^6.1.0",
@@ -56,6 +55,9 @@
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^5.1.1",
+    "ethereum-waffle": "^4.0.10",
     "hardhat": "^2.22.12"
   }
 }
